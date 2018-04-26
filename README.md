@@ -33,11 +33,21 @@ branch (e.g. `feat`), that branch will be prefixed with the level code
 
 Each level has a `README.md` file that contains the clue. Start there.
 
+If a level branch has nothing in it (not even a README), then the level 
+is not yet finished. See the Updates section below.
+
 Searching man pages and the Internet for Git techniques is allowed and 
 encouraged, but resist the temptation to cheat! As David Münnich said 
 in the Notpron hints, "It's easy to find cheats on the internet, but 
 from the moment of your first cheating on, the whole fun is gone, stay 
 strong!"
+
+Updates
+-------
+
+This game is a work in progress and new levels will be published. To 
+get these new levels, run `git fetch` in your local repo and `git pull` 
+in the last blank level you encountered.
 
 * * *
 
