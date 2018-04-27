@@ -46,8 +46,8 @@ Updates
 -------
 
 This game is a work in progress and new levels will be published. To 
-get these new levels, run `git fetch` in your local repo and `git pull` 
-in the last blank level you encountered.
+get these new levels, run `git pull --rebase` in the last level you 
+encountered.
 
 * * *
 
