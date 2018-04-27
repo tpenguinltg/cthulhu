@@ -56,7 +56,7 @@ Level 0
 
 Clone the repo.
 
-Next level: `levelone`
+Check out the next level: `levelone`
 
 Hint
 ----
