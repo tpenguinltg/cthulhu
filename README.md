@@ -1,1 +1,2 @@
-Look, my password is right there in plain text! Who's to blame for this?
+I deleted my password from the list. Now nobody will be able to hack me 
+and get to the next level.
