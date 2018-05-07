@@ -18,14 +18,17 @@ Adding a level
 2. Fork this repo.
 3. Create your level and push all of your level's branches. See 
    "Designing a level" for guidelines.
-4. Update the `latest` file on the `master` branch with your new level 
+4. Add a non-spoiler hint to the `meta/hints` branch. This hint should
+   be aimed at players who are stuck and need a little bit of an extra
+   push. Use the existing hint files as examples.
+5. Update the `latest` file on the `master` branch with your new level 
    number.
-5. Create a pull request on this repo's `master` branch. List the next
+6. Create a pull request on this repo's `master` branch. List the next
    level code, any false level codes that your level has, and all level
    branches. Optionally add some additional notes, but don't provide a
    solution. Use the pull request template provided to help you.
-6. Keep your fork available until your pull request is closed.
-7. Be prepared to update your level in case your level needs work or 
+7. Keep your fork available until your pull request is closed.
+8. Be prepared to update your level in case your level needs work or 
    another level is accepted before yours. `git branch -m` is your
    friend.
 

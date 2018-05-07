@@ -20,6 +20,10 @@
 <!-- Add more above if your level has additional branches -->
 </details>
 
+<!-- Hints file branch -->
+<!-- If you added your hints file in another branch, replace `meta/hints` with your branch. -->
+Hints file branch: `meta/hints`
+
 ## Comments
 
 <!-- Add optional notes below. Do not give a solution. -->
