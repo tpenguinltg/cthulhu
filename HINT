@@ -1,4 +1,4 @@
-`goto yyyyyy` tells you to go to the level sub-branch `yyyyyy`. 
-Remember that sub-branches are prefixed with the level code, so the 
-`goto` in the README is telling you to go to the branch named 
-`onemorefile/message`.
+`goto yyyyyy` tells you to go to the level sub-branch `yyyyyy`.
+Remember that sub-branches are prefixed with "game" and the level code,
+so the `goto` in the README is telling you to go to the branch named
+`game/onemorefile/message`.
