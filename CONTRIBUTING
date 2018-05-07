@@ -60,9 +60,28 @@ Tips:
 - If your level has multiple possible answers, consider adding false
   levels. The `README.md` for a false level should not have a level
   number and should clearly indicate that this is not the right way to
-  go.
+  go. Don't add too many, though, as this restricts the selection for
+  later levels.
 - Avoid repeating the exact same techniques as previous levels (i.e. if
   a previous level requires you to check out a branch then look at a
   file to get the next code, don't make a level that only requires you
   to check out a branch and look at a file). Combining techniques is
   fine, but be creative.
+
+### Level codes
+
+Level codes are ideally 12 characters or less and are composed only of
+lowercase alphanumeric characters. This is not a hard rule, and indeed
+there are some codes that break this rule, but there is usually little
+reason to break it.
+
+The codes printed by this command are taken and cannot be reused:
+
+    $ git branch -r | cut -f 2 -d / | sort -u
+
+Additionally, the following codes are reserved and should be used
+appropriately:
+- cthulhu: name of the game; reserved for future use
+- meta: used for project administration branches
+- scratch: used for player branches
+- tmp: used for temporary branches created by scripts
