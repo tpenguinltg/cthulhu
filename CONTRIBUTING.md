@@ -41,10 +41,10 @@ request, and be extra prepared to change things.
 Designing a level
 -----------------
 
-1. Create the branch `xxxxxxx/master` off the initial commit, where 
+1. Create the branch `game/xxxxxxx/master` off the initial commit, where 
    `xxxxxxx` is the new level code. The initial commit is tagged with 
    `init`, so the easiest way to create this branch is
-   `git checkout -b xxxxxxx/master init`.
+   `git checkout -b game/xxxxxxx/master init`.
 2. Add a `README.md` file with the level number and your clue. Follow 
    the format of previous levels.
 3. If it is a bit of a stretch to get from the clue to the next step 
@@ -52,7 +52,7 @@ Designing a level
 4. If your level requires use of anything other than file contents 
    (e.g. commits, logs, etc.), create level branches. The log and
    commits of the level master should not be significant.
-   - The branch name should be `xxxxxxx/yyyyyyy`, where `xxxxxxx` is 
+   - The branch name should be `game/xxxxxxx/yyyyyyy`, where `xxxxxxx` is 
      the level code and `yyyyyyy` is the name of the branch, which can
      be anything.
    - Create the branch off the initial commit, just like the level 
@@ -83,13 +83,21 @@ lowercase alphanumeric characters. This is not a hard rule, and indeed
 there are some codes that break this rule, but there is usually little
 reason to break it.
 
-The codes printed by this command are taken and cannot be reused:
+Previous level codes cannot be reused, including codes for false levels.
+This command prints all the level codes:
 
-    $ git branch -r | cut -f 2 -d / | sort -u
+    $ git branch -r --list 'origin/game/*' | cut -f 3 -d / | sort -u
 
-Additionally, the following codes are reserved and should be used
-appropriately:
-- cthulhu: name of the game; reserved for future use
-- meta: used for project administration branches
-- scratch: used for player branches
-- tmp: used for temporary branches created by scripts
+Branch namespaces
+-----------------
+
+This project uses a number of branch namespaces to organize the repo's
+numerous branches in the repo.
+
+Namespace | Purpose
+--------- | -------
+cthulhu   | (Reserved)
+game      | Levels
+meta      | Project administration
+scratch   | Player-created branches
+tmp       | Temporary branches created by scripts

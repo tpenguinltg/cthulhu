@@ -26,10 +26,10 @@ How to play
 Cthulhu proceeds in levels. Each level has an associated level code, 
 and your goal for each level is to find the code for the next level.
 
-The starting point for each level is the branch `xxxxxxx/master`, where 
-`xxxxxxx` is the level's code. If the level requires you to switch to a 
-branch (e.g. `feat`), that branch will be prefixed with the level code 
-(i.e. `xxxxxxx/feat`).
+The starting point for each level is the branch `game/xxxxxxx/master`,
+where `xxxxxxx` is the level's code. If the level requires you to switch
+to a branch (e.g. `feat`), that branch will be prefixed with the level
+code (i.e. `game/xxxxxxx/feat`).
 
 Each level has a `README.md` file that contains the clue. Start there.
 
