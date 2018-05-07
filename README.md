@@ -45,9 +45,10 @@ strong!"
 Updates
 -------
 
-This game is a work in progress and new levels will be published. To 
-get these new levels, run `git pull --rebase` in the last level you 
-encountered.
+This game is a work in progress and new levels will be published over
+time. To get these updates, run the `update.sh` script in the `master`
+branch.  Do **not** perform a `git fetch` or `git pull`, lest you see
+any spoilers; the script will perform these actions for you.
 
 * * *
 
