@@ -72,6 +72,8 @@ Tips:
   file to get the next code, don't make a level that only requires you
   to check out a branch and look at a file). Combining techniques is
   fine, but be creative.
+- Wrap text files (including the README and hints file) to 72 columns on
+  spaces; doing this makes it easier to read the file in a terminal.
 
 ### Level codes
 
