@@ -50,7 +50,8 @@ Designing a level
 3. If it is a bit of a stretch to get from the clue to the next step 
    (this is subjective), add a small hint in a `HINT` file.
 4. If your level requires use of anything other than file contents 
-   (e.g. commits, logs, etc.), create level branches.
+   (e.g. commits, logs, etc.), create level branches. The log and
+   commits of the level master should not be significant.
    - The branch name should be `xxxxxxx/yyyyyyy`, where `xxxxxxx` is 
      the level code and `yyyyyyy` is the name of the branch, which can
      be anything.
