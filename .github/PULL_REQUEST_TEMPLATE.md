@@ -1,4 +1,4 @@
-# Level XX
+<!-- Use "Level XX" as the title. Replace "XX" with the level number. -->
 
 <!-- Next level code -->
 <details><summary>Next code</summary>
