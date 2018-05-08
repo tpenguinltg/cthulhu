@@ -91,8 +91,8 @@ This command prints all the level codes:
 Branch namespaces
 -----------------
 
-This project uses a number of branch namespaces to organize the repo's
-numerous branches in the repo.
+This project uses a number of branch namespaces to organize this repo's 
+numerous branches.
 
 Namespace | Purpose
 --------- | -------
