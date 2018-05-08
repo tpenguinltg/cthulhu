@@ -50,6 +50,9 @@ time. To get these updates, run the `update.sh` script in the `master`
 branch.  Do **not** perform a `git fetch` or `git pull`, lest you see
 any spoilers; the script will perform these actions for you.
 
+Rest assured, inspecting the update script will not be considered 
+cheating.
+
 * * *
 
 Level 0
