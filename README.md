@@ -43,10 +43,10 @@ from the moment of your first cheating on, the whole fun is gone, stay
 strong!"
 
 That said, if you need additional hints, you can find them in the 
-`meta/hints` branch or in the [GitHub issues][forum] where you can 
-comment and ask for further hints (which may or may not be given).  
-These hints are not spoilers. There are already threads for each level; 
-do not create your own hints thread.
+`hints` directory on `master` or in the [GitHub issues][forum] where 
+you can comment and ask for further hints (which may or may not be 
+given).  These hints are not spoilers. There are already threads for 
+each level; do not create your own hints thread.
 
 [forum]: https://github.com/tpenguinltg/cthulhu/issues?q=is%3Aissue+is%3Aclosed+label%3Ahint
 
