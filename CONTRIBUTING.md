@@ -18,9 +18,9 @@ Adding a level
 2. Fork this repo.
 3. Create your level and push all of your level's branches. See 
    "Designing a level" for guidelines.
-4. Add a non-spoiler hint to the `meta/hints` branch. This hint should
-   be aimed at players who are stuck and need a little bit of an extra
-   push. Use the existing hint files as examples.
+4. Add a non-spoiler hint to the `hints` directory in the `master`
+   branch. This hint should be aimed at players who are stuck and need a
+   little bit of an extra push. Use the existing hint files as examples.
 5. Update the `latest` file on the `master` branch with your new level 
    number.
 6. Create a pull request on this repo's `master` branch. List the next
