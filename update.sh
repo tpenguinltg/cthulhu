@@ -21,6 +21,7 @@ OPTIONS
 EOF
 }
 
+[ -z "${*##*--help*}" ] && { print_usage >&3; exit 0; }
 while getopts r:h opt; do
   case $opt in
     r)
