@@ -48,7 +48,7 @@ case ${CTHULHU_UPDATE_PASS:=1} in
     # update all local project branches
     git branch --list 'game/*' 'meta/*' |
       while read branch; do
-        git branch --track --force "$branch" "origin/$branch"
+        git branch --track --force "$branch" "$remote/$branch"
       done
     ;;
   *) exit ;;
