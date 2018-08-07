@@ -88,16 +88,16 @@ This command prints all the level codes:
 
     $ git branch -r --list 'origin/game/*' | cut -f 3 -d / | sort -u
 
-Branch namespaces
------------------
+Branch prefixes
+---------------
 
-This project uses a number of branch namespaces to organize this repo's 
+This project uses a number of branch prefixes to organize this repo's 
 numerous branches.
 
-Namespace | Purpose
---------- | -------
-cthulhu   | (Reserved)
-game      | Levels
-meta      | Project administration
-scratch   | Player-created branches
-tmp       | Temporary branches created by scripts
+Prefix  | Purpose
+------- | -------
+cthulhu | (Reserved)
+game    | Levels
+meta    | Project administration
+scratch | Player-created branches
+tmp     | Temporary branches created by scripts
