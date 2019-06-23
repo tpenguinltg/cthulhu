@@ -43,7 +43,7 @@ case ${CTHULHU_UPDATE_PASS:=1} in
   1)
     # update the current branch and fetch the new branches
     # this will pull in any updated version of the script
-    git pull --rebase "$remote"
+    git pull --ff-only "$remote" || exit
     ;;
   2)
     # update all local project branches
