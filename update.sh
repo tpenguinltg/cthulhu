@@ -55,4 +55,4 @@ case ${CTHULHU_UPDATE_PASS:=1} in
   *) exit ;;
 esac
 
-CTHULHU_UPDATE_PASS=$((CTHULHU_UPDATE_PASS + 1)) exec "$0" "$@"
+CTHULHU_UPDATE_PASS=$((CTHULHU_UPDATE_PASS + 1)) exec "$0" "$@" >&3 2>&4
