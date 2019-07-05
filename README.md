@@ -1,6 +1,6 @@
 Level 15
 ========
 
-"Though branch 'split'," said Jess,
-"has a log that's such a mess,
-it gives you access."
+To branch "split" I strode
+Did log but in one line mode
+And got the next code
