@@ -92,6 +92,19 @@ This command fetches the list from the remote repository:
 
     $ git ls-remote origin | grep 'refs/heads/game/' | cut -f 4 -d / | sort -u
 
+Consider using a random word from the dictionary or a randomly generated
+password for your code.
+
+The following will list ten random 7-letter words from the Unix system
+dictionary:
+
+    $ grep '^[a-z]\{7\}$' /usr/share/dict/words | shuf | head -10
+
+The following will generate ten random 7-character phonetic passwords
+(pwgen must be installed):
+
+    $ pwgen -A0 7 10
+
 Branch prefixes
 ---------------
 
