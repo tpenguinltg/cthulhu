@@ -84,9 +84,13 @@ there are some codes that break this rule, but there is usually little
 reason to break it.
 
 Previous level codes cannot be reused, including codes for false levels.
-This command prints all the level codes:
+This command prints all the level codes on an up-to-date copy:
 
     $ git branch -r --list 'origin/game/*' | cut -f 3 -d / | sort -u
+
+This command fetches the list from the remote repository:
+
+    $ git ls-remote origin | grep 'refs/heads/game/' | cut -f 4 -d / | sort -u
 
 Branch prefixes
 ---------------
