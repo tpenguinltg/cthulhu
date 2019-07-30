@@ -26,7 +26,8 @@ Adding a level
 6. Create a pull request on this repo's `master` branch. List the next
    level code, any false level codes that your level has, and all level
    branches. Optionally add some additional notes, but don't provide a
-   solution. Use the pull request template provided to help you.
+   solution. Use the pull request template provided to help you. A
+   filled-out example can be found in `pull-request-example.md`.
 7. Keep your fork available until your pull request is closed.
 8. Be prepared to update your level in case your level needs work or 
    another level is accepted before yours. `git branch -m` is your
